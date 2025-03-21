@@ -1,4 +1,6 @@
-# Develop DAPR Function to deploy in ACA
+# DAPR PubSub App using DAPR Functions Extension and Azure Service Bus
+
+This repo shows example of .NET 8.0 PubSub app using DAPR Functions Extension and Azure Service Bus.
 
 ## Create and deploy Azure Function
 
@@ -351,7 +353,7 @@ Topic received a message: {"data":{"message":"{\"message\": \"Hello, Dapr!\"}","
 ## Reference
 
 * [Setup Azure Service Bus topics](https://docs.dapr.io/reference/components-reference/supported-pubsub/setup-azure-servicebus-topics/)
-* [DAPR - Managed Identity Azure authentication](https://docs.dapr.io/developing-applications/integrations/azure/azure-authentication/howto-mi]
+* [DAPR - Managed Identity Azure authentication](https://docs.dapr.io/developing-applications/integrations/azure/azure-authentication/howto-mi)
 * [DAPR C# Service Bus sample](https://github.com/Azure-Samples/pubsub-dapr-csharp-servicebus)
 * [Azure Functions deploy as container](https://learn.microsoft.com/en-us/azure/azure-functions/functions-how-to-custom-container)
 * [Java DAPR Service Bus sample](https://azure.github.io/java-aks-aca-dapr-workshop/modules/03-assignment-3-azure-pub-sub/1-azure-service-bus.html)

@@ -263,5 +263,7 @@ paket-files/
 __pycache__/
 *.pyc
 
-
+.vscode
+.dapr
 Properties
+tmp*
